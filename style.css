@@ -78,8 +78,8 @@ h4 {
     width: 837px;
 }
 .home-title{
-    width: 377px;
-    margin-left: 210px;
+    width: 420px;
+    margin-left: 200px;
 }
 .hezhao-type{
     width: 600px;
@@ -187,7 +187,6 @@ h4 {
 }
 .home-title-font{
     color:#3d5e7c;
-    font-family: Myriad;
     padding-bottom: 30px;
     font-size: 33px;
 }
