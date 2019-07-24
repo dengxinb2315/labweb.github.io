@@ -147,7 +147,7 @@ h4 {
     padding-bottom:50px;
 }
 .base-font{
-    font-family: Myriad;
+    font-family: Helvetica;
 }
 .year-text{
     font-size: 30px;
@@ -157,7 +157,7 @@ h4 {
 }
 .title-type{
     color:#3d5e7c;
-    font-family: Myriad;
+    font-family: Helvetica;
     padding-bottom: 30px;
     font-size: 24px;
 }
@@ -191,7 +191,7 @@ h4 {
     margin-left: 120px;
 }
 .title-font{
-    font-family: Arial;
+    font-family: Helvetica;
 }
 .home-title-font{
     color:#3d5e7c;
