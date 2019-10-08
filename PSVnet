@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
 </head>
 <body>
 <iframe src="https://miaomitan.shinyapps.io/psvnet/" width=1300 height=1400 frameborder="0">
