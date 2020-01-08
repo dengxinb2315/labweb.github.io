@@ -7,8 +7,20 @@
     <meta name="keywords" content="DENG Xin, Xin DENG, X DENG, Pseudomonas, CityU, City University of HONG KONG, BMS, Department of Biomedical Sciences, Microorganism">
     <meta name="author" content="WeitongZHANG">
     <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <link rel = "stylesheet" type = "text/css" href = "foundation.css">
     <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body class="bgcolor">
 <!-- HEADER AREA -->
@@ -50,7 +62,42 @@
             <p class="date-type title-font">Dec 8, 2019</p>
             <div class="link-top"></div>
             <br>
-            <img class="hezhao-type" src="https://raw.githubusercontent.com/Nikaika/labweb.github.io/master/imge/BBQ201912_2.jpg" />
+            <!-- photo frame -->
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <!-- photos -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://github.com/Nikaika/labweb.github.io/blob/master/imge/BBQ201912_2.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://github.com/Nikaika/labweb.github.io/blob/master/imge/BBQ201912_Sky_day.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://github.com/Nikaika/labweb.github.io/blob/master/imge/BBQ201912_Sea_day.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://github.com/Nikaika/labweb.github.io/blob/master/imge/BBQ201912_Sea_night.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://github.com/Nikaika/labweb.github.io/blob/master/imge/BBQ201912_food.jpg">
+                    </div>
+                </div>
+
+                <!-- button -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
             <br>
             <br>
         </div>
