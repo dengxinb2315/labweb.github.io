@@ -214,3 +214,16 @@ h4 {
      height: 1px;
      border-top: solid #868686 1px;
  }
+.title-type-News{
+    color:#3d5e7c;
+    font-family: Helvetica;
+    padding-bottom: 0px;
+    font-size: 24px;
+}
+.date-type{
+    color:#868686;
+    font-family: Helvetica;
+    padding-bottom: 0px;
+    font-size: 16px;
+    margin: 0 0 0;
+}
